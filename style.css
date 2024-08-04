@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ---------------------------------------------navbar--------------------------------------------- */
+
+nav{
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+div.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+div.option{
+    display: flex;
+    margin-left: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+div.option a{
+    margin-right: 5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* --------------------------------homemain----------------------------------------------------------------------- */
+
+#homeMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23rem;
+    /* background-color: red; */
+    background: url(/images/homebackground.jpg) no-repeat ;
+    background-size: cover;
+    
+}
+
+.discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.discription h1{
+    font-size: 5rem;
+    margin: 1rem;
+}
+.tarif{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.content{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+/* ------------------------ranking section------------------------------------------------------------ */
+
+.collegeranking{
+    /* padding:2rem; */
+    /* background-color: #f6f6f6; */
+    background: url(/images/rankingbackgroung.jfif);
+    padding-bottom: 2rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color:white ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colleges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.college{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(22, 22, 22);
+    padding: 2rem;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    
+    margin-bottom: 1rem;
+}
+.image img{
+    height: 30rem;
+    width: 30rem;
+    border: 0px solid black;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0 10px rgb(22, 22, 22); */
+}
+
+.collegediscription{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+     /* font-family: "Baloo Bhai 2"; */
+     /* font-family: 'Cormorant Garamond', serif; */
+     
+}
+
+.name{
+    margin-bottom: 3rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-transform: uppercase;
+    margin-left: 2rem;
+    
+}
+.name_appproved{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.mainname{
+    font-weight: bold;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.approve{
+    margin-left: 1.5rem;
+    font-weight: lighter;
+}
+.logo img{
+    width: 3rem;
+}
+
+/* .button{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */ 
+
+.colleg_ranking{
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    /* background-color: yellow; */
+    margin: 2rem;
+    color: black;
+    background-color: #fff;
+    font-weight: bold;
+   
+}
+
+.review a{
+    border:2px solid #999;
+    text-decoration: none;
+    /* background-color: green; */
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    color: #999;
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.review a:hover{
+    color: black;
+    border:1px solid black ;
+
+
+}
+
+.collegedetail{
+    margin: 2.5rem;
+    word-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    
+}
+
+/*  ---------------------footer---------------------*/
+
+footer{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #EEE;
+    gap: 10%;
+    flex-wrap: wrap;
+    color: black;
+}
+.contact span{
+    font-weight: bold;
+}
+
+.copyright{
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+}
+
+.socialsites{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    margin: 1rem;
+}
+.icon img{
+    width: 2rem;
+}
